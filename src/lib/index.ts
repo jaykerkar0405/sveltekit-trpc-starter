@@ -1,1 +1,2 @@
-// place files you want to import through the `$lib` alias in this folder.
+export { trpc } from './trpc';
+// export { default as ExampleComponent } from './components/ExampleComponent.svelte';

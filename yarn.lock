@@ -526,6 +526,16 @@
     lightningcss "1.29.2"
     tailwindcss "4.0.15"
 
+"@trpc/client@^11.0.0":
+  version "11.0.0"
+  resolved "https://registry.yarnpkg.com/@trpc/client/-/client-11.0.0.tgz#3020392edf87abc046594cee0acd379f2c6289d9"
+  integrity sha512-U2THlxsdr4ykAX5lpTU8k5WRADPQ+68Ex2gfUht3MlCxGK7njBmNSSzjpQSWNt7tMI/xsYrddFiRlmEPrh+Cbg==
+
+"@trpc/server@^11.0.0":
+  version "11.0.0"
+  resolved "https://registry.yarnpkg.com/@trpc/server/-/server-11.0.0.tgz#5a49758fa3c052a83314c328155d68027164f077"
+  integrity sha512-xY9q/b/wR/tWGYTm5xmRjivkYD2EZZXmOKmHuNJRYZuLbieeNUsdfQRjJC409WB1pjKWInomhHwuA8bahZJ4lQ==
+
 "@types/cookie@^0.6.0":
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/@types/cookie/-/cookie-0.6.0.tgz#eac397f28bf1d6ae0ae081363eca2f425bedf0d5"
@@ -737,6 +747,13 @@ cookie@^0.6.0:
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/cookie/-/cookie-0.6.0.tgz#2798b04b071b0ecbff0dbb62a505a8efa4e19051"
   integrity sha512-U71cyTamuh1CRNCfpGY6to28lxvNwPG4Guz/EVjgf3Jmzv0vlDp1atT9eS5dDjMYHucpHbWns6Lwf3BKz6svdw==
+
+copy-anything@^3.0.2:
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/copy-anything/-/copy-anything-3.0.5.tgz#2d92dce8c498f790fa7ad16b01a1ae5a45b020a0"
+  integrity sha512-yCEafptTtb4bk7GLEQoM8KVJpxAfdBJYaXyzQEgQQQgYrZiDp8SJmGKlYza6CYjEDNstAdNdKA3UuoULlEbS6w==
+  dependencies:
+    is-what "^4.1.8"
 
 cross-spawn@^7.0.6:
   version "7.0.6"
@@ -1118,6 +1135,11 @@ is-reference@^3.0.3:
   integrity sha512-ixkJoqQvAP88E6wLydLGGqCJsrFUnqoH6HnaczB8XmDH1oaWU+xxdptvikTgaEhtZ53Ky6YXiBuUI2WXLMCwjw==
   dependencies:
     "@types/estree" "^1.0.6"
+
+is-what@^4.1.8:
+  version "4.1.16"
+  resolved "https://registry.yarnpkg.com/is-what/-/is-what-4.1.16.tgz#1ad860a19da8b4895ad5495da3182ce2acdd7a6f"
+  integrity sha512-ZhMwEosbFJkA0YhFnNDgTM4ZxDRsS6HqTo7qsZM08fehyRYIYa0yHu5R6mgo1n/8MgaPBXiPimPD77baVFYg+A==
 
 isexe@^2.0.0:
   version "2.0.0"
@@ -1541,6 +1563,13 @@ strip-json-comments@^3.1.1:
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-3.1.1.tgz#31f1281b3832630434831c310c01cccda8cbe006"
   integrity sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==
 
+superjson@^2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/superjson/-/superjson-2.2.2.tgz#9d52bf0bf6b5751a3c3472f1292e714782ba3173"
+  integrity sha512-5JRxVqC8I8NuOUjzBbvVJAKNM8qoVuH0O77h4WInc/qC2q5IreqKxYwgkga3PfA22OayK2ikceb/B26dztPl+Q==
+  dependencies:
+    copy-anything "^3.0.2"
+
 supports-color@^7.1.0:
   version "7.2.0"
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-7.2.0.tgz#1b7dcdcb32b8138801b3e478ba6a51caa89648da"
@@ -1612,6 +1641,11 @@ totalist@^3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/totalist/-/totalist-3.0.1.tgz#ba3a3d600c915b1a97872348f79c127475f6acf8"
   integrity sha512-sf4i37nQ2LBx4m3wB74y+ubopq6W/dIzXg0FDGjsYnZHVa1Da8FH853wlL2gtUhg+xJXjfk3kUZS3BRoQeoQBQ==
+
+trpc-sveltekit@^3.6.3:
+  version "3.6.3"
+  resolved "https://registry.yarnpkg.com/trpc-sveltekit/-/trpc-sveltekit-3.6.3.tgz#e34f9261c4733b94f10fd0a610ec1531db5d94f5"
+  integrity sha512-e9yYZiL6+GjfiSfcqvC5iXXhB+eohtH0XBlGqabWCJYj4QDRE4nkjWySpe1Fdp/0vI8cr0OTN7B6mLLruz3nbg==
 
 ts-api-utils@^2.0.1:
   version "2.1.0"
@@ -1693,3 +1727,8 @@ zimmerframe@^1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/zimmerframe/-/zimmerframe-1.1.2.tgz#5b75f1fa83b07ae2a428d51e50f58e2ae6855e5e"
   integrity sha512-rAbqEGa8ovJy4pyBxZM70hg4pE6gDgaQ0Sl9M3enG3I0d6H4XSAM3GeNGLKnsBpuijUow064sf7ww1nutC5/3w==
+
+zod@^3.24.2:
+  version "3.24.2"
+  resolved "https://registry.yarnpkg.com/zod/-/zod-3.24.2.tgz#8efa74126287c675e92f46871cfc8d15c34372b3"
+  integrity sha512-lY7CDW43ECgW9u1TcT3IoXHflywfVqDYze4waEz812jR/bZ8FHDsl7pFQoSZTz5N+2NqRXs8GBwnAwo3ZNxqhQ==
