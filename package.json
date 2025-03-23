@@ -1,17 +1,18 @@
 {
-	"name": "a",
 	"private": true,
-	"version": "0.0.1",
 	"type": "module",
+	"version": "1.0.0",
+	"name": "sveltekit-trpc-starter",
+	"description": "A modern full-stack template using SvelteKit, tRPC, Prisma, and PWA support. Perfect for building scalable and type-safe web apps. 🚀",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
-		"prepare": "svelte-kit sync || echo ''",
-		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"format": "prettier --write .",
-		"lint": "prettier --check . && eslint ."
+		"prepare": "svelte-kit sync || echo ''",
+		"lint": "prettier --check . && eslint .",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
 	},
 	"devDependencies": {
 		"@eslint/compat": "^1.2.5",
